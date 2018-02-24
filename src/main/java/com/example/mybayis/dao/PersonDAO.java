@@ -1,6 +1,6 @@
-package com.example.dao;
+package com.example.mybayis.dao;
 
-import com.example.domain.PersonVO;
+import com.example.mybayis.domain.PersonVO;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

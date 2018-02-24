@@ -1,7 +1,7 @@
-package com.example.controller;
+package com.example.mybayis.controller;
 
-import com.example.dao.PersonDAO;
-import com.example.domain.PersonVO;
+import com.example.mybayis.dao.PersonDAO;
+import com.example.mybayis.domain.PersonVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,6 +17,7 @@ import java.util.List;
  */
 @EnableTransactionManagement
 @RestController
+@RequestMapping("/mybatis")
 public class PersonController {
 
     @Autowired
